@@ -1,0 +1,16 @@
+<div class="container">
+    <h2 class="text-center my-5">My Today Task</h2>
+    <div class="container my-5">
+        <button class="btn btn-danger position-absolute end-0 translate-middle" (click)="navigateToAddTodo()">Add Task</button>
+    </div>
+    <div *ngIf="todoList.length <= 0; else showTodoList" class="text-center">
+        <h5>No, Today todo exist. Please add new todo</h5>
+    </div>
+    <ng-template #showTodoList>
+        <div class="row">
+            <div *ngFor="let todo of todoList" class="col-md-3">
+                <app-todo-item [todo]="todo" (deleteTodoEvent)="deleteTodo($event)"></app-todo-item>
+            </div>
+        </div>
+    </ng-template>
+</div>
