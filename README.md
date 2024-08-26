@@ -1,27 +1,44 @@
-# TodoApp
+# To-Do App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+This is a simple To-Do app built using Angular. It allows users to add tasks, view them, and delete tasks from the list.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Add New Tasks**: Quickly add new tasks to your to-do list.
+- **View Tasks**: Display all your tasks in a clean and organized list.
+- **Delete Tasks**: Remove tasks from the list when they are no longer needed.
 
-## Code scaffolding
+## Screenshots
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Add To-Do
 
-## Build
+<img src="https://github.com/rajputmukesh748/TodoApp-Angular/blob/master/images/AddTodoPage.png" alt="Add To-Do Page" width="600">
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Home Page
 
-## Running unit tests
+<img src="https://github.com/rajputmukesh748/TodoApp-Angular/blob/master/images/HomePage.png" alt="Home Page" width="600">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies Used
 
-## Running end-to-end tests
+- **Angular**: A platform for building mobile and desktop web applications.
+- **HTML & SCSS**: For structuring and styling the application.
+- **Bootstrap**: A popular CSS framework for building responsive and mobile-first websites.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Getting Started
 
-## Further help
+### Prerequisites
+- Node.js and npm installed on your machine.
+- Angular CLI installed globally.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/TodoApp.git
+
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
